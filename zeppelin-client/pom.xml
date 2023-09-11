@@ -34,7 +34,7 @@
   <description>Zeppelin Client</description>
 
   <properties>
-    <unirest.version>3.7.04</unirest.version>
+    <unirest.version>3.14.5</unirest.version>
     <commons-text.version>1.10.0</commons-text.version>
   </properties>
 
