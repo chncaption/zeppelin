@@ -36,7 +36,7 @@
     <!--library versions-->
     <interpreter.name>flink</interpreter.name>
     <flink.version>${flink1.12.version}</flink.version>
-    <flink.hadoop.version>${hadoop2.7.version}</flink.hadoop.version>
+    <flink.hadoop.version>3.4.1</flink.hadoop.version>
     <hive.version>2.3.4</hive.version>
     <hiverunner.version>4.0.0</hiverunner.version>
     <grpc.version>1.15.0</grpc.version>
@@ -885,7 +885,7 @@
           </artifactSet>
 
           <transformers>
-            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
             <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
               <resource>reference.conf</resource>
             </transformer>
@@ -1022,7 +1022,7 @@
         <flink.version>${flink1.15.version}</flink.version>
         <flink.scala.version>2.12.7</flink.scala.version>
         <flink.scala.binary.version>2.12</flink.scala.binary.version>
-        <flink.library.scala.suffix></flink.library.scala.suffix>
+        <flink.library.scala.suffix/>
       </properties>
       <dependencies>
         <dependency>
